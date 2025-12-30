@@ -1,5 +1,5 @@
-import { Rental } from "../../../../domain/entities/Rental";
-import { IRentalRepository } from "../../../../domain/repositories/IRentalRepository";
+import { Rental } from "../../../domain/entities/Rental";
+import { IRentalRepository } from "../../../domain/repositories/IRentalRepository";
 
 export class InMemoryRentalRepository implements IRentalRepository {
   rentals: Rental[] = [];

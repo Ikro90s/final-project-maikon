@@ -1,7 +1,7 @@
 import { injectable } from "inversify";
 import { PrismaClient } from "@prisma/client";
-import { IRentalRepository } from "../../../../domain/repositories/IRentalRepository";
-import { Rental } from "../../../../domain/entities/Rental";
+import { IRentalRepository } from "../../../domain/repositories/IRentalRepository";
+import { Rental } from "../../../domain/entities/Rental";
 
 const prisma = new PrismaClient();
 

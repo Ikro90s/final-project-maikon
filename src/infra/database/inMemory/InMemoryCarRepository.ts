@@ -1,5 +1,5 @@
-import { Car } from "../../../../domain/entities/Car";
-import { ICarRepository } from "../../../../domain/repositories/ICarRepository";
+import { Car } from "../../../domain/entities/Car";
+import { ICarRepository } from "../../../domain/repositories/ICarRepository";
 
 export class InMemoryCarRepository implements ICarRepository {
   cars: Car[] = [];
